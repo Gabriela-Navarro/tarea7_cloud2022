@@ -1,0 +1,20 @@
+<div id ="pre">
+    <div id = "principal">
+        <div class="titulo">Calculadora</div>
+    </div>
+        <div id="tema">
+            <b>Operando 1  </b><input type="number" [(ngModel)]="n1"><br/>
+            <b>Operando 2 </b><input type="number" [(ngModel)]="n2"><br/>
+        </div>
+        <div id ="botones">
+            <button (click)="suma()">+</button>
+            <button (click)="resta()">-</button>
+            <button (click)="multiplicacion()">*</button>
+            <button (click)="division()">/</button>
+            <div *ngIf="mostrarRespuesta">
+                respuesta = {{respuesta}}
+            </div>
+        </div>
+    
+
+</div>

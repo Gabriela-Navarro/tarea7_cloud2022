@@ -1,0 +1,15 @@
+
+<div id="principal2">
+    <div class="titulo">Conversión</div>
+</div>
+    <div id ="tema2">
+        <b>Celcius </b> <input type="number" [(ngModel)]="n1"><br/>
+    </div>
+    <div id="boton2">
+        <button (click)="Convertir()">Convertir</button>
+        <div *ngIf="mostrarRespuesta">
+            respuesta = {{respuesta}}
+        </div>
+    </div>
+
+

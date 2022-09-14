@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Space+Mono:ital@1&display=swap');
+#header{
+    
+    background-color: #08304a;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    justify-content: center;
+    color:white;
+    height: auto;
+    
+     h1{
+
+    font-family: 'Space Mono', monospace;
+    font-size: 80px;
+    text-align: center; 
+     }
+    
+}
+
+#opciones{
+    @keyframes example {
+        from {background-color: #b35e63;}
+        to {background-color: #547388}
+      } 
+      background-color: #b35e63 ;
+      animation-name: example;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+
+    
+    font-family:'Didact Gothic', sans-serif; 
+    font-size: 30px;
+    text-align: justify; 
+    flex-direction: row;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    
+}

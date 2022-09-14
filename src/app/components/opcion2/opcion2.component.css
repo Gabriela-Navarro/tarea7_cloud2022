@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Gloria+Hallelujah&family=Space+Mono:ital@1&display=swap");
+#principal2 {
+  color: black;
+  gap: 40px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 40px;
+  text-align: justify;
+  margin: 30px 30px;
+}
+
+#tema2 {
+  background-color: #ecb0a5;
+  border: 2px solid black;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 15%;
+  height: 15%;
+  padding: 30px;
+  gap: 40px;
+  margin: 20px 20px;
+}
+
+#boton2 {
+  gap: 40px;
+  width: 10%;
+  height: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 10px 10px;
+}
+/*# sourceMappingURL=opcion2.component.css.map */
